@@ -1,5 +1,31 @@
 # Sixteen Threads Architecture
 
+# System Architecture
+
+This system uses a multi-agent reasoning pipeline with memory persistence.
+
+```mermaid
+flowchart TD
+
+U[User Input] --> ORCH[Game Engine Orchestrator]
+
+ORCH --> STATE[World State Manager]
+
+STATE --> CA[Character Agents]
+STATE --> MA[Memory Agent]
+
+CA --> PROPOSE[Action Proposals]
+PROPOSE --> RA[Rule Engine Agent]
+
+RA --> VALID[Validated Actions]
+VALID --> CR[Conflict Resolver Agent]
+
+CR --> NA[Narrator Agent]
+NA --> STORY[Story Output]
+
+STORY --> MA
+MA --> STATE
+
 ```mermaid
 graph TD
     Player["Player (Adaeze)"]

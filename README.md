@@ -204,13 +204,10 @@ sixteen-threads/
 
 ## Demo Video
 
-[YouTube link — to be added before submission]
+[Sixteen Threads RPG Demo.mov]
 
 The demo shows:
 - 3 minutes: cinematic web UI with audio, animations, and story introduction
 - 2 minutes: terminal gameplay with live agent reasoning, disagreement resolution, and GM narration
 EOF
 echo "README written: $(wc -l < /home/claude/sixteen-threads/README.md) lines"
-Output
-
-README written: 209 lines

@@ -1,6 +1,3 @@
-bash
-
-cat > /home/claude/sixteen-threads/README.md << 'EOF'
 # Sixteen Threads
 
 **Track:** Reasoning Agents (Battle #2) — Microsoft Agents League Hackathon 2026

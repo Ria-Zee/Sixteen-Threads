@@ -115,7 +115,7 @@ Three pre-built disagreement scenarios drive the demo:
 
 - DN-01: The shadowless figure. Akin wants confrontation. Kofi wants patience. Zawadi proposes a third option.
 - DN-02: The Nri nail. Akin calls it a declaration of war. Zawadi identifies it as misdirection. The nail is forty years old.
-- DN-04: The war debate. All five agents simultaneously. The player casts the deciding vote.
+- DN-03: The war debate. All five agents simultaneously. The player casts the deciding vote.
 
 ---
 
